@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+    padding: 25px;
+    background-color: black;
+    text-algin:center;
+    background-image:url('song8.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.non-premium {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.premium {
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+p{
+	font-size: 24px;
+    font-weight: bold;
+    color:red;
+    text-align:center;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
